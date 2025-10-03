@@ -12,7 +12,6 @@ function App() {
         <div>
             <Navbar />
             <Routes>
-                {/* Ruta para la página de Inicio. path="/" indica la ruta raíz */}
                 <Route path="/" element={<Inicio />} />
                 
                 <Route path="/sobre-mi" element={<SobreMi />} />
