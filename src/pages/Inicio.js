@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import meImage from "../assets/me.jpg"
 
+const roles = ['Estudiando ing. Software', 'Construyendo mi portafolio web', 'Aprendiendo React y Node.js'];
+
 function Inicio() {
   const [text, setText] = useState('');
-  const roles = ['Estudiando ing. Software', 'Construyendo mi portafolio web', 'Aprendiendo React y Node.js'];
   const [roleIndex, setRoleIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
 
