@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import meImage from "../assets/me.jpg"
+import '../styles/inicio.css'
 
 const roles = ['Estudiando ing. Software', 'Construyendo mi portafolio web', 'Aprendiendo React y Node.js'];
 
@@ -62,8 +63,8 @@ function Inicio() {
       {/* Barra lateral redes */}
       <div className="social-sidebar">
         <a href="https://github.com/GersonOrozco642" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="www.linkedin.com/in/gerzon-abdiel-orozco-madero-474a921b7" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="ogerson642@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/gerzon-abdiel-orozco-madero-474a921b7" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:ogerson642@gmail.com">Email</a>
         <div className="social-line"></div>
       </div>
 
