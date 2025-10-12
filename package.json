@@ -2,9 +2,7 @@
   "name": "port",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": "22.x"
-  },
+  "engines": { "node": "22.x" },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,6 +17,11 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react-swc": "^3.7.1",
-    "vite": "^5.4.10"
+    "vite": "^5.4.10",
+    "rollup": "^4.24.0"
   }
 }
+
+
+
+
