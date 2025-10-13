@@ -66,7 +66,7 @@ function Contacto() {
             <span className="number">05.</span> Contacto
           </h1>
           <p className="section-subtitle">
-            "Freelancer disponible: desarrollo web moderno y funcional."
+            "Junior disponible: desarrollo web moderno."
           </p>
         </div>
 
@@ -76,7 +76,7 @@ function Contacto() {
           <div className="contact-info">
             <h2 className="info-title">Información de Contacto</h2>
             <p className="info-desc">
-              En busca de mi primera oportunidad en el mundo del código. Motivado, curioso y con ganas de crecer.
+              En busca de mi primera oportunidad en el mundo del código. Motivado, y con ganas de crecer.
             </p>
 
             <div className="info-cards">
@@ -100,7 +100,7 @@ function Contacto() {
 
             <div className="availability">
               <div className="status-indicator"></div>
-              <span>Disponible para trabajo freelance y tiempo completo</span>
+              <span>Disponible para trabajo como junior</span>
             </div>
           </div>
 
@@ -171,7 +171,7 @@ function Contacto() {
 
               {status === 'success' && (
                 <div className="success-message">
-                  ¡Gracias por contactarme! Te responderé pronto.
+                  ¡Porfavor contactame! Te responderé pronto.
                 </div>
               )}
             </form>

@@ -32,7 +32,7 @@ function Proyectos() {
     <div className='projects'>
       <div className='container'>
         <h1 className='section-title'>
-          <span className='number'>03</span> Proyectos Personales
+          <span className='number'>03</span> Proyectos Personales o Universitarios
         </h1>
         <p className='section-subtitle'>
           Algunos proyectos que he hecho
@@ -57,7 +57,7 @@ function Proyectos() {
               className='project-card'
               style={{animationDelay: `${index * 0.1}s`}}
             >
-              {/* (7) Imagen + overlay con links */}
+              
               <div className="project-image">
                 <img
                   src={project.img}
@@ -114,4 +114,4 @@ function Proyectos() {
   )
 }
 
-export default Proyectos;   // (9) Cierre/export
+export default Proyectos;   

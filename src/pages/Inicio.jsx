@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import meImage from "../assets/me.jpg"
 import '../styles/inicio.css'
 
-const roles = ['Estudiando ing. Software', 'Construyendo mi portafolio web', 'Aprendiendo React y Node.js'];
+const roles = ['Estudiante de ing. Software.', 'Desarollador web junior.', 'Una persona con hambre de aprendizaje constante.'];
 
 function Inicio() {
   const [text, setText] = useState('');
@@ -37,11 +37,11 @@ function Inicio() {
           <p className="greeting">Hola, mi nombre es</p>
           <h1 className="name">Gerzon Orozco</h1>
           <h2 className="tagline">
-            Estoy <span className="typing-text">{text}</span>
+            Soy <span className="typing-text">{text}</span>
             <span className="cursor">|</span>
           </h2>
           <p className="description">
-            Enfocado en crecer como desarrollador y construir aplicaciones útiles y sencillas.
+            Enfocado en crecer como desarrollador y construir aplicaciones útiles y modernas.
 
           </p>
 

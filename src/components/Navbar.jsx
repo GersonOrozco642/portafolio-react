@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <Link to="/" className="logo">{'<GersonOrozco />'}</Link>
+        <Link to="/" className="logo">{'<GerzonOrozco />'}</Link>
 
         
         <button 
