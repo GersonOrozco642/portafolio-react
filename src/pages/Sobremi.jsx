@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Sobremi.css';
+import meImage from "../assets/me2.jpg";
 
 function Sobremi() {
   const skills = {
@@ -91,11 +92,7 @@ function Sobremi() {
         <div className='about-image'>
           <div className='image-wrapper'>
             <div className='image-overlay'></div>
-            <img
-              src="/assets/me.jpg"
-              alt="Gerzon Orozco"
-              className="profile-image"            
-            />
+            <img src={meImage} alt="representative image" className="profile-image" />
           </div>
         </div>
       </section>

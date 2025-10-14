@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import meImage from "../assets/me.jpg"
 import '../styles/inicio.css'
 
-const roles = ['Estudiante de ing. Software.', 'Desarollador web junior.', 'Una persona con hambre de aprendizaje constante.'];
+const roles = ['Estudiante de ing. en software.', 'Desarollador web junior.', 'Una persona con hambre de aprendizaje constante.'];
 
 function Inicio() {
   const [text, setText] = useState('');
@@ -68,11 +68,7 @@ function Inicio() {
         <div className="social-line"></div>
       </div>
 
-      {/**  Indicador scroll */}
-      <div className="scroll-indicator">
-        <span>Scroll</span>
-        <div className="scroll-line"></div>
-      </div>
+    
     </div>
   );
 }

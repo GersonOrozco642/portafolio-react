@@ -65,9 +65,7 @@ function Contacto() {
           <h1 className="section-title">
             <span className="number">05.</span> Contacto
           </h1>
-          <p className="section-subtitle">
-            "Junior disponible: desarrollo web moderno."
-          </p>
+          
         </div>
 
         <div className="contact-content">
@@ -75,9 +73,7 @@ function Contacto() {
           {/* Contact Info */}
           <div className="contact-info">
             <h2 className="info-title">Información de Contacto</h2>
-            <p className="info-desc">
-              En busca de mi primera oportunidad en el mundo del código. Motivado, y con ganas de crecer.
-            </p>
+        
 
             <div className="info-cards">
               {contactInfo.map((info, index) => (

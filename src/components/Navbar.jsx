@@ -39,16 +39,14 @@ function Navbar() {
           <NavLink to="/proyectos" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setMenuOpen(false)}>
             <span className="number">03.</span> Proyectos
           </NavLink>
-          <NavLink to="/servicios" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setMenuOpen(false)}>
+          {/* <NavLink to="/servicios" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setMenuOpen(false)}> 
             <span className="number">04.</span> Servicios
-          </NavLink>
+          </NavLink>*/}
           <NavLink to="/contacto" className={({isActive}) => isActive ? 'active' : ''} onClick={() => setMenuOpen(false)}>
             <span className="number">05.</span> Contacto
           </NavLink>
 
-          <a href="/CV_Gerson_Orozco.pdf" download className="btn-resume">
-            Descargar CV
-          </a>
+         
         </div>
       </div>
     </nav>
